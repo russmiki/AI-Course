@@ -3,7 +3,7 @@
 ![image alt](https://github.com/afkarireihaneh/AI-Course/blob/main/Student-Projects/group20/eval.png?raw=true)
 ## Team Members
 - Raheleh Afkari (40110130117488)
-- Student 2 (ID)
+- Seyedeh Romina Mohammadi (40110130117346)
 - Student 3 (ID)
 - Student 4 (ID)
 

@@ -10,6 +10,8 @@ Users can enter text, receive an AI-generated summary, and view their personal s
 ## Team members:
    * Sepanta MohammadGholian(40110130117210)
    * Faramarz Daniali(40110130117235)
+   * Amirali Abedzade
+   * Mojtaba Marhamati Gashti(40110130117052)
 ## Features
 * AI Text Summarization
   * Uses HuggingFace InferenceClient for high-quality English summaries.

@@ -1,0 +1,124 @@
+#welcome-message {
+  margin-top: 0.5rem;
+}
+
+.welcome-message {
+  position: relative;
+  width: 85%;
+  max-width: 450px;
+  margin: 0.5rem auto 2rem auto;
+  animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcome-content {
+  background: var(--surface);
+  border: 2px solid var(--primary-color);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+
+.welcome-content::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+  border-radius: var(--radius-xl);
+  z-index: -1;
+  opacity: 0.1;
+}
+
+.welcome-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  direction: rtl;
+}
+
+.welcome-text {
+  margin: 0 0 0.75rem 0;
+  color: var(--text-primary);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  text-align: right;
+  direction: rtl;
+}
+
+.welcome-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem 0;
+  direction: rtl;
+}
+
+.welcome-features li {
+  padding: 0.25rem 0;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-align: right;
+  transition: color 0.2s ease-in-out;
+}
+
+.welcome-features li:hover {
+  color: var(--primary-color);
+  padding-right: 0.5rem;
+}
+
+.welcome-footer {
+  margin: 0.75rem 0 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-align: center;
+  direction: rtl;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  #welcome-message {
+    margin-top: 0.5rem;
+  }
+  
+  .welcome-message {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .welcome-content {
+    padding: 0.875rem 1rem;
+  }
+
+  .welcome-title {
+    font-size: 0.9375rem;
+  }
+
+  .welcome-text,
+  .welcome-footer {
+    font-size: 0.75rem;
+  }
+
+  .welcome-features li {
+    font-size: 0.6875rem;
+  }
+}

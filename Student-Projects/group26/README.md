@@ -151,7 +151,7 @@ This project was developed as part of a university coursework/thesis. We would l
 
 ## Development Support
 • **[Name]**  
-• **[Name]** 
+• **Bahar Pourvosoughi** 
 • **[Name]**
 
 ## Main Contributor

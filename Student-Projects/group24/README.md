@@ -1,4 +1,4 @@
-# Person Guesser From Image
+<img width="602" height="123" alt="image" src="https://github.com/user-attachments/assets/697d6eee-9430-4252-b3a1-3290728334b0" /># Person Guesser From Image
 
 An intelligent Telegram bot that analyzes images with multiple people and plays an interactive guessing game! The bot uses advanced AI-powered face detection and analysis to identify various facial attributes, then challenges users to a guessing game where it tries to identify which person the user is thinking of through strategic yes/no questions.
 
@@ -14,6 +14,7 @@ An intelligent Telegram bot that analyzes images with multiple people and plays 
 - Mohammad amin Jafarian ([@BaziForYou](https://github.com/BaziForYou))
 - Mohammad Hossein Meftah ([@MHKEY81](https://github.com/MHKEY81))
 - Sabrineh Pourmarashi ([@puormarashisabrineh](https://github.com/puormarashisabrineh))
+- Sarina Soleimany Rad ([@SarinaRad](https://github.com/SarinaRad))
 
 
 ## Features

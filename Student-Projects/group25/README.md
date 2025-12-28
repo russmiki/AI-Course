@@ -1,9 +1,12 @@
 # Developers
 
+
 Mahsa Ghorbanpour =====> Creating the overall architecture of the game and determining the structure of various objects  
 Amin Ghorbani =====> Determining and mapping the structure of various game objects to states within the react  
 maryamdelfanian =====> Creating the game-related UI section  
 Ali Aalizadeh =====> Developed the Minimax algorithm in `Game.ts`  
+armaghan tajrishi =====> visual design of the UI section related to setting up the playground
+
 
 # ConquerTheBox
 

@@ -13,7 +13,7 @@ Instructor: Dr. Maryam Haji Esmaeili
 
 ### 👥 Team Members
 - Leader: [Reyhane Salehi ] – [40110130117462]
-- [Student Name 2] – [Student ID]
+- [Mina Heidary ] – [40110130117384]
 - [Student Name 3] – [Student ID]
 - [Student Name 4] – [Student ID]
 - [Student Name 5] – [Student ID]

@@ -15,15 +15,8 @@ Instructor: Dr. Maryam Haji Esmaeili
 - Leader: [Reyhane Salehi ] – [40110130117462]
 - [Mina Heidary ] – [40110130117384]
 - [Donya ghorbani] – [40110130117415]
-- [Student Name 4] – [Student ID]
-
-- [Student Name 5] – [mohammad saleh imani]_[40110130117572]
-
-- [Student Name 3] – [Student ID]
+- [mohammad saleh imani]_[40110130117572]
 - [Abtin nikoobonyad rad ] – [40010130117039]
-- [Student Name 5] – [Student ID]
-
-
 ---
 
 ## 🌱 Project Overview

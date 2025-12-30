@@ -72,7 +72,7 @@ python "main.py"
 - Implemented face and eye detection algorithms
 - Developed eye color recognition system
 
-### 📝 Abbas
+### 📝 Abbas Faghihi
 **Role**: Code Documentation
 - Added useful comments throughout the code
 - Improved code readability and maintainability

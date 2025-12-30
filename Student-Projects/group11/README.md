@@ -14,9 +14,15 @@ Instructor: Dr. Maryam Haji Esmaeili
 ### 👥 Team Members
 - Leader: [Reyhane Salehi ] – [40110130117462]
 - [Mina Heidary ] – [40110130117384]
-- [Student Name 3] – [Student ID]
+- [Donya ghorbani] – [40110130117415]
 - [Student Name 4] – [Student ID]
+
 - [Student Name 5] – [mohammad saleh imani]_[40110130117572]
+
+- [Student Name 3] – [Student ID]
+- [Abtin nikoobonyad rad ] – [40010130117039]
+- [Student Name 5] – [Student ID]
+
 
 ---
 
@@ -125,7 +131,7 @@ while AI-generated responses are used as a fallback mechanism.
 - Fetch API  
 - CSS and utility-based styling 🎨  
 
-### Backend:
+### 🖥️ Backend:
 - FastAPI  
 - Pydantic  
 - Uvicorn  
@@ -146,14 +152,38 @@ Request Body:
   "prompt": "User input message"
 }
 
-Backend💻:
+Response:
+{
+  "response": "Generated assistant reply"
+}
+
+
+## 📎 Software Engineering Principles Applied
+
+- Separation of concerns
+- Modular architecture
+- Clean and readable code structure
+- Scalability and extensibility
+- Ethical and safety-aware AI design
+
+
+## 📎 System Limitations
+
+- The system does not provide medical or clinical advice
+- Emotion detection is keyword-based and may not capture all nuances
+- Conversation memory is intentionally limited
+- The assistant is designed for general emotional support only
+
+
+## ✨ How to Run the Project
+Backend:
 
 pip install -r requirements.txt  
 
 uvicorn server:app --reload
 
 
-Frontend✨:
+Frontend:
 
 npm install  
 
@@ -161,7 +191,7 @@ npm start
 
 
 
-##✨ Screenshots✨
+## ⚜️ Screenshots
 
 
 ### Running Chat Interface
@@ -169,29 +199,29 @@ npm start
 ![Chat Interface](./assets/1.png)
 
 
-### Backend Communication⚜️
+### Backend Communication
 
 ![Backend Communication](./assets/2.png)
 
 
-### AI-generated Responses⚜️
+### AI-generated Responses
 
 ![AI Responses](./assets/3.png)
 
 
-### More UI Examples⚜️
+### More UI Examples
 
 ![UI Example](./assets/4.png)
 
 
-### Final Demo⚜️
+### Final Demo
 
 ![Final Demo](./assets/5.png)
 
 
-## ✨Conclusion✨
+## Conclusion
 
 
-NexMind demonstrates the practical application of artificial intelligence concepts, multi-agent systems, and full-stack software engineering. ✨ 
+NexMind demonstrates the practical application of artificial intelligence concepts, multi-agent systems, and full-stack software engineering.  
 
 The project emphasizes emotional awareness, safety, and modular AI design within an ethical framework.

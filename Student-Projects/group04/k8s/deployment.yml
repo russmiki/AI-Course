@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sport-chatbot
+  labels:
+    app: sport-chatbot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sport-chatbot
+  template:
+    metadata:
+      labels:
+        app: sport-chatbot
+    spec:
+      containers:
+        - name: sport-chatbot
+          image: sport-chatbot:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+          env:
+            - name: APP_HOST
+              value: "0.0.0.0"
+            - name: APP_PORT
+              value: "8000"
+          envFrom:
+            - secretRef:
+                name: sport-chatbot-env
+          volumeMounts:
+            - name: chats-volume
+              mountPath: /app/chats
+            - name: uploads-volume
+              mountPath: /app/static/uploads
+
+      volumes:
+        - name: chats-volume
+          persistentVolumeClaim:
+            claimName: chats-pvc
+        - name: uploads-volume
+          persistentVolumeClaim:
+            claimName: uploads-pvc

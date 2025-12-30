@@ -1,0 +1,29 @@
+
+
+services:
+  sport-chatbot:
+    image: sport-chatbot:latest
+    container_name: sport-chatbot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      APP_HOST: 0.0.0.0
+      APP_PORT: 8000  
+    volumes:
+      - chats_volume:/app/chats
+      - uploads_volume:/app/static/uploads
+    restart: always
+    networks:
+      - sport_network
+
+networks:
+  sport_network:
+
+volumes:
+  chats_volume:
+  uploads_volume:

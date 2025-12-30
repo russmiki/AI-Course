@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <title>مربی هوشمند بدنسازی</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>چت‌ها</h2>
+            </div>
+            <button onclick="send({action:'new_chat'})" class="btn">چت جدید</button>
+            <button onclick="if(confirm('همه پاک بشن؟')) send({action:'clear_all'})" class="btn danger">پاک کردن همه</button>
+            <hr>
+            <div id="chatList" class="chat-list"></div>
+        </div>
+
+        <button id="openSidebarBtn" class="open-sidebar-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="chat-area">
+            <div id="chatTitle" class="chat-title">مربی ورزش هوشمند</div>
+            <div id="messages" class="messages"></div>
+
+            <div id="typingIndicator">
+                <span></span><span></span><span></span>
+            </div>
+
+            <div class="input-container">
+                <div id="filePreview" class="file-preview"></div>
+
+                <div class="input-box">
+                    <label for="fileInput" class="attach-btn" title="آپلود عکس یا فیلم">
+                        <i class="fa-solid fa-paperclip"></i>
+                    </label>
+                    <input type="file" id="fileInput" accept="image/*,video/*" hidden>
+                    <textarea id="msgInput" placeholder="هدفت چیه؟ (چربی‌سوزی، عضله، فرم بدن...)" rows="1"></textarea>
+                    <button id="sendBtn" class="send-btn">ارسال</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">×</span>
+        <img id="modalImage" src="" alt="بزرگ‌نمایی">
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

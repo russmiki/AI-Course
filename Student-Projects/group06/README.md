@@ -266,8 +266,5 @@ DietBot demonstrates how fundamental principles of software engineering, algorit
 
 **Developed by:** Computer Science Students **Purpose:** Academic and Educational Use Only
 
-nastaran moradi
-Mahshid SHoeibi
-Aylar Kazempour
-Mahsa Deylami
-Mohammad Rasoul Miraki
+
+

@@ -24,7 +24,7 @@
 | user2         | Backend Logic Developer                     | Implementation of metabolic calculations, edge-case handling, and integration of algorithmic logic with system workflow (`diet_logic.py`)                                               |
 | user3         | Frontend & UI Developer                     | Design and implementation of the interactive Streamlit interface, user input validation, and output visualization (`app.py`)                                                            |
 | user4           | Data Architect                              | Design and normalization of food datasets, calorie annotation, and meal categorization (`foods.py`)                                                                                     |
-| user5  | Project Manager & System Integrator         | Module coordination, utility functions, data persistence, and generation of explanatory textual outputs (`utils.py`, `ai.py`)                                                           |
+| Mohammad Rasoul Miraki  | Project Manager & System Integrator         | Module coordination, utility functions, data persistence, and generation of explanatory textual outputs (`utils.py`, `ai.py`)                                                           |
 
 ---
 

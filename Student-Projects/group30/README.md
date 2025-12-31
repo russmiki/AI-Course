@@ -27,7 +27,7 @@ A desktop application for analyzing and estimating housing prices in Tehran usin
 
 - شمساییی 
 - محمدنژاد  
-- ساسانی  
+- ساسانی.  
 
 ---
 

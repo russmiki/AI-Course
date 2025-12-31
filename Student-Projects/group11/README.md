@@ -15,8 +15,15 @@ Instructor: Dr. Maryam Haji Esmaeili
 - Leader: [Reyhane Salehi ] – [40110130117462]
 - [Mina Heidary ] – [40110130117384]
 - [Donya ghorbani] – [40110130117415]
-- [mohammad saleh imani]_[40110130117572]
+- [Student Name 4] – [Student ID]
+
+- [Student Name 5] – [mohammad saleh imani]_[40110130117572]
+
+- [Student Name 3] – [Student ID]
 - [Abtin nikoobonyad rad ] – [40010130117039]
+- [Student Name 5] – [Student ID]
+
+
 ---
 
 ## 🌱 Project Overview
@@ -192,22 +199,24 @@ npm start
 ![Chat Interface](./assets/1.png)
 
 
-## ⚜️ Screenshots
+### Backend Communication
 
-### Chat Interface
-![Chat Interface](asset/1.png)
+![Backend Communication](./assets/2.png)
 
-### Running Chat Interface
-![Backend Communication](asset/2.png)
 
-### AI Responding to Stress
-![AI Responses](asset/3.png)
+### AI-generated Responses
 
-### AI Guidance
-![UI Example](asset/4.png)
+![AI Responses](./assets/3.png)
 
-### Emotional Reflection
-![Final Demo](asset/5.png)
+
+### More UI Examples
+
+![UI Example](./assets/4.png)
+
+
+### Final Demo
+
+![Final Demo](./assets/5.png)
 
 
 ## Conclusion

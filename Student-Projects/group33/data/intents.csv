@@ -1,0 +1,11 @@
+text,intent
+سلام,greeting
+سلام چطوری,greeting
+میخوام وزن کم کنم,lose_weight
+رژیم لاغری میخوام,lose_weight
+میخوام لاغر شم,lose_weight
+میخوام عضله بسازم,gain_weight
+افزایش وزن میخوام,gain_weight
+برنامه افزایش وزن,gain_weight
+میخوام وزنم ثابت بمونه,maintain_weight
+رژیم سالم میخوام,maintain_weight

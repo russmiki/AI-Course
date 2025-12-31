@@ -6,7 +6,7 @@
 ### Members
 - Mohammad Armin Shojaee (leader)
 - Soroush Haghani
-- Fatemeh Nejati
+- Fatemeh  Nejati
 - Ehsan Moghadam Nia
 - Alireza KianPishe
 

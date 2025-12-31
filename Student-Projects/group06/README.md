@@ -11,7 +11,7 @@
 - **Field of Study:** Computer Science
 - **Course:** Artificial Intelligence
 - **Project Type:** Undergraduate Academic Project
-- **Instructor:** Dr. Maryam Haj Esmaeili
+- **Instructor:** Dr. Maryam Hajiesmaeili
 - **Project Title:** DietBot – Personalized Diet Recommendation System
 
 ---
